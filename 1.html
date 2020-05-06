@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Example </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="vendor/font-awesome.css">
+    <link rel="stylesheet" href="1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="empty">
+
+    </div>
+    <div class="container">
+        <section class="nav-bar">
+            <div class="nav-bar-container">
+                <div class="image-container">
+                    <h2 style="color: white;
+                    font-size: 40px;
+                    font-family: sans-serif;; ">BAO<span style="color:red;font-size: 70px;">.</span></h2>
+                    <!-- <img src="https://pxltheme.com/html/bolby/demo/images/logo.svg" alt="logo"> -->
+                </div>
+                <div class="nav-bar-links">
+                    <ul>
+                        <li>
+                            <i class="fas fa-home"></i><a href="#introduction">Home</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i><a href="#about-me"> About</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-briefcase" style="margin-right: 18px;"></i><a href="#service"> Service</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-graduation-cap" style="margin-right: 18px;"></i><a href="#exp">Experience</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-edit"></i><a href="#recent-works">Works</a>
+                        </li>
+                        <li>
+                            <i class="far fa-comments"></i><a href="#contact-me">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="introduction" id="introduction">
+            <div class="introduction-container">
+                <div class="home-info">
+                    <div class="image-container">
+                        <img src="https://pxltheme.com/html/bolby/demo/images/avatar-1.svg" alt="profile-pic">
+                    </div>
+
+                    <h3 id="name">
+                        Hai Bao Tran
+                    </h3>
+                    <p id="job">
+                        I'm a
+                        <span>
+                            <span class="typewrite text-danger" data-period="2000"
+                                data-type='[ "Fullstack JS Web Developer", "Gamer :D", "Work hard person" ]'>
+                                <span class="wrap"></span>
+                        </span>
+                        </span>
+                    </p>
+                    <div id="link">
+                        <ul>
+                            <li>
+                                <i class="fab fa-facebook-square"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <a class="button">Hire Me</a>
+
+                </div>
+                <div id="scroll-down-btn">
+
+                </div>
+            </div>
+        </section>
+        <section class="about-me" id="about-me">
+            <div class="about-me-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-me-content">
+                    <div class="image-wrapper">
+                        <div class="image-container">
+                            <img src="hinhCV.jpg">
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <p id="hello">hello!</p>
+                        <p id="introduce">
+                            I’m Hai Bao, front-end web-developer based on HCM City. I have experience in web UX-UI building, customization and building web API. Below here is my skills :
+                        </p>
+                        <ul id="skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>REACTJS</li>
+                            <li>REDUX</li>
+                            <li>MONGODB</li>
+                            <li>NODEJS</li>
+                            <li>EXPRESSJS</li>
+                            <li>GITHUB</li>
+
+                        </ul>
+                        <a style="width:110px" class="button">Download CV</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <div class="service-container">
+                <h2 class="section-title" style="margin-bottom:50px">Service</h2>
+                <div class="service-content">
+                    <ul>
+                        <li style="background-color: rgb(108, 108, 229);">
+                            <div class="content">
+                                <div class="image-container">
+                                    <img src="https://pxltheme.com/html/bolby/demo/images/service-1.svg">
+                                </div>
+                                <p class="section-title" style="color:white">UI/UX design</p>
+                                <p class="text" style="text-align: center; color:white">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+
+                            </div>
+                        </li>
+                        <li style="background-color: rgb(249, 123, 139);">
+                            <div class="content">
+                                <div class="image-container">
+                                    <img src="https://pxltheme.com/html/bolby/demo/images/service-2.svg">
+                                </div>
+                                <p class="section-title" style="color:white">Web Development</p>
+                                <p class="text" style="text-align: center; color:white">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+
+                            </div>
+                        </li>
+                        <li style="background-color: rgb(249, 215, 76);">
+                            <div class="content">
+                                <div class="image-container">
+                                    <img src="https://pxltheme.com/html/bolby/demo/images/service-3.svg">
+                                </div>
+                                <p class="section-title" style="color:white">Photography</p>
+                                <p class="text" style="text-align: center; color:white">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p></p>
+            </div>
+        </section>
+        <section class="exp" id="exp">
+            <div class="exp-container">
+                <h2 class="section-title">Experience</h2>
+                <div class="exp-content">
+                    <div class="edu-container">
+                        <div class="time-milestone">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">5/2020</span>
+                                <p id="event">Start learning in CoderSchool</p>
+
+
+                            </div>
+
+                        </div>
+                        <div class="time-milestone">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">8/2019</span>
+                                <p id="event">Graduate from Huflit University</p>
+
+
+                            </div>
+
+                        </div>
+                        <div class="time-milestone">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">2015</span>
+                                <p id="event">Start learning in Huflit University</p>
+                                <p id="addtional information">Major: Information Techonology</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="edu-container">
+                        <div class="time-milestone">
+                            <i class="fas fa-suitcase"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">12/2029</span>
+                                <p id="event">Starting my own Start Up</p>
+
+
+                            </div>
+
+                        </div>
+                        <div class="time-milestone">
+                            <i class="fas fa-suitcase"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">12/2029</span>
+                                <p id="event">Being Promoted into Manager at Google</p>
+
+
+                            </div>
+
+                        </div>
+                        <div class="time-milestone">
+                            <i class="fas fa-suitcase"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">1/2025</span>
+                                <p id="event">Start working at Google </p>
+                                <p id="addtional information">Position: Senior FullStack Web Developer</p>
+
+                            </div>
+
+                        </div>
+                        <div class="time-milestone">
+                            <i class="fas fa-suitcase"></i>
+                            <div class="line"></div>
+                            <div class="text">
+                                <span id="time">10/2020</span>
+                                <p id="event">Start working at NashTech</p>
+                                <p id="addtional information">Position: Junior FullStack Web Developer</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recent-works" id="recent-works">
+            <div class="recent-works-container">
+                <h2 class="section-title">Recent works</h2>
+                <div class="recent-works-content">
+                    <ul class="works-navbar">
+                        <li data-appear=".all" class="tab active">All</li>
+                        <li data-appear=".html" class="tab ">HTML/CSS</li>
+                        <li data-appear=".reactjs" class="tab ">ReactJS</li>
+                        <li data-appear=".fullstack" class="tab ">FullStack</li>
+                    </ul>
+
+                    <div class="works-container">
+                        <ul>
+                            <li class="html">
+                                <p id="category-title">HTML/CSS</p>
+                                <p id="work-introduce">Google Landing Page - Basic HTML/CSS</p>
+                                <i class="fas fa-search-plus"></i>
+                                <div class="image-container">
+                                    <a href="https://haibao-googlepage-coderschool.netlify.app/"><img src="./img/1.svg" alt=""></a>
+
+                                </div>
+                            </li>
+                            <li class="html">
+                                <p id="category-title">HTML/CSS</p>
+                                <p id="work-introduce">Spotify Landing Page - Using FlexBox</p>
+                                <i class="fas fa-search-plus"></i>
+                                <div class="image-container">
+                                    <a href="https://bao-spotify-landing.netlify.app/"><img src="./img/2.svg" alt=""></a>
+
+                                </div>
+                            </li>
+                            <li class="html">
+                                <p id="category-title">HTML/CSS</p>
+                                <p id="work-introduce">CoderSchool Price Page + Checkout Page - Using Bootstrap</p>
+                                <i class="fas fa-search-plus"></i>
+                                <div class="image-container">
+                                    <a href=" https://haibao-pricepage-coderschool.netlify.app/"><img src="./img/3.svg" alt=""></a>
+
+                                </div>
+                            </li>
+                            <li class="reactjs">
+                                <p id="category-title">ReactJs</p>
+                                <p id="work-introduce">Shopping Web Using ReactJS (Fixing the API...)</p>
+                                <i class="fas fa-search-plus"></i>
+                                <div class="image-container">
+                                    <a href="https://bao-reactjs.netlify.app/"><img src="./img/4.svg" alt=""></a>
+
+                                </div>
+                            </li>
+                            <li class="fullstack">
+                                <p id="category-title">FullStack</p>
+                                <p id="work-introduce">Dev Social Network Using MERN Stack</p>
+                                <i class="fas fa-search-plus"></i>
+                                <div class="image-container">
+                                    <a href="https://devfinderbysam.herokuapp.com/"><img src="./img/5.svg" alt=""></a>
+
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="contact-me" id="contact-me">
+            <div class="contact-me-container">
+                <h3 class="section-title">Contact Me</h3>
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-part">
+                            <div class="contact-part-icon">
+                                <i class="fas fa-location-arrow"></i>
+                            </div>
+                            <p class="contact-part-title">
+                                Address
+                            </p>
+                            <p class="contact-part-info">
+                                Trịnh Đình Trọng Street, Phú Trung Ward, Tân Phú District, Ho Chi Minh City
+                            </p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="contact-part">
+                            <div class="contact-part-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <p class="contact-part-title">
+                                Email
+                            </p>
+                            <a style="    color: #5e5c7f;;text-decoration: none" class="contact-part-info" href="mailto:tranhaibao1997@gmail.com">
+                                tranhaibao1997@gmail.com
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="contact-part">
+                            <div class="contact-part-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <p class="contact-part-title">
+                                Phone
+                            </p>
+                            <a style="    color: #5e5c7f;;text-decoration: none" class="contact-part-info" href="tel:0913620322">
+                                +84 913 620 322
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4616337330926!2d106.63898441533422!3d10.775911862148549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea3f54477ab%3A0xec28093fe3d91362!2zVHLhu4tuaCDEkMOsbmggVHLhu41uZywgUGjDuiBUcnVuZywgVMOibiBQaMO6LCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1582096609894!5m2!1sen!2s"
+                    width="100%" height="450" frameBorder="0" style="border: 0" allowFullScreen />
+            </div>
+
+
+        </section>
+
+
+        </section>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
