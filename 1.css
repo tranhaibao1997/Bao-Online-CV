@@ -655,13 +655,19 @@ section {
 
 @media (max-width: 650px) {
   .about-me .about-me-container .about-me-content .image-wrapper {
-    width: 35% !important; } }
+    width: 35% !important; }
+  section {
+    padding: 15px; } }
 
 @media (max-width: 529px) {
   .about-me .about-me-container .about-me-content .image-wrapper {
     width: 35% !important; }
   .about-me .about-me-container .about-me-content .right-content {
     height: 320px !important; } }
+
+@media (max-width: 470px) {
+  .about-me .about-me-container .about-me-content .image-wrapper {
+    width: 45% !important; } }
 
 @media (max-width: 444px) {
   .recent-works .recent-works-container .recent-works-content .works-container ul li {
