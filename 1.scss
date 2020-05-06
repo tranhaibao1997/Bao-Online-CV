@@ -311,7 +311,6 @@ section {
             margin-top: 50px;
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
             .edu-container {
                 border-radius: 20px;
                 width: 45%;
@@ -633,6 +632,9 @@ section {
     }
     .contact-me .contact-me-container ul li {
         width: 100% !important;
+    }
+    .exp .exp-container .exp-content {
+        flex-wrap: wrap;
     }
 }
 

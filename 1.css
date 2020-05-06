@@ -334,9 +334,7 @@ section {
       display: flex;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-      justify-content: space-between;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      justify-content: space-between; }
       .exp .exp-container .exp-content .edu-container {
         border-radius: 20px;
         width: 45%;
@@ -646,7 +644,10 @@ section {
   .recent-works .recent-works-container .recent-works-content .works-container ul li {
     width: 45% !important; }
   .contact-me .contact-me-container ul li {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .exp .exp-container .exp-content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
 
 @media (max-width: 650px) {
   .about-me .about-me-container .about-me-content .image-wrapper {
