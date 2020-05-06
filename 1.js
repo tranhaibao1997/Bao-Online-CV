@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", function() {
-
+    AOS.init();
     //make typewriter
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;

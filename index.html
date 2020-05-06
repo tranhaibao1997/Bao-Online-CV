@@ -8,12 +8,12 @@
 
     <script type="text/javascript" src="1.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/font-awesome.css">
     <link rel="stylesheet" href="1.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/gsap.min.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -109,7 +109,7 @@
                             <img src="./img/myprofilepic.jpg">
                         </div>
                     </div>
-                    <div class="right-content">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="right-content">
                         <p id="hello">hello!</p>
                         <p id="introduce">
                             I’m Hai Bao, front-end web-developer based on HCM City. I have experience in web UX-UI building, customization and building web API. Below here is my skills :
@@ -137,7 +137,7 @@
                 <h2 class="section-title" style="margin-bottom:50px">Service</h2>
                 <div class="service-content">
                     <ul>
-                        <li style="background-color: rgb(108, 108, 229);">
+                        <li data-aos="fade-up" data-aos-duration="3000" style="background-color: rgb(108, 108, 229);">
                             <div class="content">
                                 <div class="image-container">
                                     <img src="./img/service-1.svg">
@@ -147,7 +147,7 @@
 
                             </div>
                         </li>
-                        <li style="background-color: rgb(249, 123, 139);">
+                        <li data-aos="fade-up" data-aos-duration="1500" style="background-color: rgb(249, 123, 139);">
                             <div class="content">
                                 <div class="image-container">
                                     <img src="./img/service-2.svg">
@@ -157,7 +157,7 @@
 
                             </div>
                         </li>
-                        <li style="background-color: rgb(249, 215, 76);">
+                        <li data-aos="fade-up" data-aos-duration="1000" style="background-color: rgb(249, 215, 76);">
                             <div class="content">
                                 <div class="image-container">
                                     <img src="./img/service-3.svg">
@@ -177,7 +177,7 @@
                 <h2 class="section-title">Experience</h2>
                 <div class="exp-content">
                     <div class="edu-container">
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-graduation-cap"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -188,7 +188,7 @@
                             </div>
 
                         </div>
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-graduation-cap"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -199,7 +199,7 @@
                             </div>
 
                         </div>
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-graduation-cap"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -213,7 +213,7 @@
 
                     </div>
                     <div class="edu-container">
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-suitcase"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -224,7 +224,7 @@
                             </div>
 
                         </div>
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-suitcase"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -235,7 +235,7 @@
                             </div>
 
                         </div>
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-suitcase"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -246,7 +246,7 @@
                             </div>
 
                         </div>
-                        <div class="time-milestone">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="time-milestone">
                             <i class="fas fa-suitcase"></i>
                             <div class="line"></div>
                             <div class="text">
@@ -275,7 +275,7 @@
 
                     <div class="works-container">
                         <ul>
-                            <li class="html">
+                            <li data-aos="flip-left" class="html">
                                 <p id="category-title">HTML/CSS</p>
                                 <p id="work-introduce">Google Landing Page - Basic HTML/CSS</p>
                                 <i class="fas fa-search-plus"></i>
@@ -284,7 +284,7 @@
 
                                 </div>
                             </li>
-                            <li class="html">
+                            <li data-aos="flip-left" class="html">
                                 <p id="category-title">HTML/CSS</p>
                                 <p id="work-introduce">Spotify Landing Page - Using FlexBox</p>
                                 <i class="fas fa-search-plus"></i>
@@ -293,7 +293,7 @@
 
                                 </div>
                             </li>
-                            <li class="html">
+                            <li data-aos="flip-left" class="html">
                                 <p id="category-title">HTML/CSS</p>
                                 <p id="work-introduce">CoderSchool Price Page + Checkout Page - Using Bootstrap</p>
                                 <i class="fas fa-search-plus"></i>
@@ -302,7 +302,7 @@
 
                                 </div>
                             </li>
-                            <li class="reactjs">
+                            <li data-aos="flip-left" class="reactjs">
                                 <p id="category-title">ReactJs</p>
                                 <p id="work-introduce">Shopping Web Using ReactJS (Fixing the API...)</p>
                                 <i class="fas fa-search-plus"></i>
@@ -311,7 +311,7 @@
 
                                 </div>
                             </li>
-                            <li class="fullstack">
+                            <li data-aos="flip-left" class="fullstack">
                                 <p id="category-title">FullStack</p>
                                 <p id="work-introduce">Dev Social Network Using MERN Stack</p>
                                 <i class="fas fa-search-plus"></i>
@@ -336,7 +336,7 @@
         <section class="contact-me" id="contact-me">
             <div class="contact-me-container">
                 <h3 class="section-title">Contact Me</h3>
-                <ul class="contact-list">
+                <ul data-aos="zoom-in" class="contact-list">
                     <li>
                         <div class="contact-part">
                             <div class="contact-part-icon">
