@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", function() {
-    AOS.init();
+    AOS.init({disable: 'mobile'});
     //make typewriter
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -59,7 +59,7 @@
     };
     //make typewriter
 
-
+    //make tab
     const tabChanger = document.getElementsByClassName("tab");
     const allTabContent = document.querySelectorAll(".works-container ul li")
     const htmlList = document.querySelectorAll(".html")
@@ -135,6 +135,24 @@
 
         }
     }
+    //make tab
+
+    //make nav-mobile
+    const navMobileBtn=document.getElementById("nav-bar-btn");
+    const navbar=document.getElementById("nav-bar");
+    const navCloseBtn=document.getElementById("nav-mobile-btn-close")
+
+
+    navMobileBtn.onclick=()=>{
+    navbar.classList.toggle("nav-bar-mobile-open")
+    }
+
+    navCloseBtn.onclick=()=>{
+        navbar.classList.remove("nav-bar-mobile-open")
+        }
+    //make nav-mobile
+
+    
 
 
 

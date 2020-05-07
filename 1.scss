@@ -16,6 +16,11 @@ html {
     display: inline !important;
     transition: 0.5s;
 }
+.nav-bar-mobile-open
+{
+    transform: translateX(0%) !important;
+    transition: 0.5s;
+}
 
 body {
     font-family: Roboto;
@@ -108,6 +113,7 @@ section {
     width: 15%;
     height: 100%;
     background-color: #353353;
+    z-index: 10000;
     .nav-bar-container {
         padding-left: 40px;
         .nav-bar-links {
@@ -147,8 +153,23 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
     .introduction-container {
         width: 100%;
+        .nav-bar-mobile
+        {
+            position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background: #353353;
+    border-bottom: 1px solid whitesmoke;
+    height: 64px;
+    align-items: center;
+    z-index: 10;
+    opacity: 0;
+        }
         .home-info {
             #name {
                 font-size: 36px;
@@ -492,6 +513,7 @@ section {
                 background-color: white;
                 width: 25%;
                 margin-bottom: 20px;
+                margin-right: 10px;
                 .contact-part {
                     .contact-part-icon {
                         text-align: center;
@@ -570,9 +592,16 @@ section {
     }
     .about-me .about-me-container .about-me-content .image-wrapper {
         width: 30%;
+        
+    }
+    .about-me .about-me-container .about-me-content .image-wrapper .image-container img {
+        border-radius: 50% ;
     }
     .about-me .about-me-container .about-me-content .right-content {
         width: 60% !important;
+    }
+    .contact-me .contact-me-container ul li {
+        width: 100% !important;
     }
 }
 
@@ -583,21 +612,28 @@ section {
     .about-me .about-me-container .about-me-content .right-content {
         width: 65% !important;
     }
-    .contact-me .contact-me-container ul li {
-        width: 40% !important;
-    }
+    
     section {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+  
 }
 
 @media(max-width:990px) {
     .nav-bar {
-        display: none;
+        width: 50% !important;
+        transition: 0.5s;
+        transform: translateX(-100%);
+
+        
     }
     .container {
         grid-template-columns: 1fr !important;
+    }
+    .nav-bar-mobile
+    {
+        opacity: 1 !important;
     }
 }
 
@@ -630,9 +666,7 @@ section {
     .recent-works .recent-works-container .recent-works-content .works-container ul li {
         width: 45% !important;
     }
-    .contact-me .contact-me-container ul li {
-        width: 100% !important;
-    }
+    
     .exp .exp-container .exp-content {
         flex-wrap: wrap;
     }
