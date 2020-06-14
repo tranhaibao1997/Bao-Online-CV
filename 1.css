@@ -215,13 +215,14 @@ section {
   opacity: 0;
 }
 .introduction .introduction-container .home-info #name {
-  font-size: 36px;
+  font-size: 50px;
   color: white;
   margin: 0;
   margin-top: 10px;
 }
 .introduction .introduction-container .home-info #job {
   color: white;
+  font-size: 24px;
 }
 .introduction .introduction-container .home-info #link ul {
   padding: 0;
@@ -237,6 +238,7 @@ section {
 }
 .introduction .introduction-container .home-info #link ul li {
   margin-right: 20px;
+  font-size: 24px;
 }
 .introduction .introduction-container .home-info #link ul li:hover {
   color: #ffd15c;
